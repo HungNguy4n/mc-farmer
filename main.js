@@ -4,17 +4,17 @@ const vec3 = require('vec3');
 
 const BED_TIME = 12000;
 
-let cropType = 'wheat_seeds'
-let seedName = 'wheat_seeds';
-let harvestName = 'wheat';
+let cropType = 'carrots';
+let seedName = 'carrot';
+let harvestName = 'carrot';
 
 let expansion = 0;
 let snackTime = false;
 
 const bot = mineflayer.createBot({
-	username: "FarmMachine",
-	host: "localhost",
-	port: 12345,
+	username: "HungClone",
+	host: "dungprooooo.aternos.me",
+	port: 55237,
 	//viewDistance: "tiny",
 });
 
